@@ -1,8 +1,4 @@
 name: e2e
-on:
-  schedule:
-    # Runs "at 09:00 and 15:00, Monday through Friday" (see https://crontab.guru)
-    - cron: '0 9,15 * * 1-5'
 jobs:
   e2e:
     runs-on: ubuntu-latest
